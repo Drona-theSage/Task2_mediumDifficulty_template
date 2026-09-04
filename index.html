@@ -1,148 +1,388 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Winter Drop</title>
-    <link rel="stylesheet" href="style.css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Scoutie+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet"></head>
-<body>
-        <div class="main">
-            <div class="canvas">
-
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Scoutie+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <div class="canvas">
         <!-- navbar -->
         <div class="navbar_div">
-            <div class="nav">
-                <!-- of navbar containing heading 2025 \ Winter Drop -->
-                <div class="textheading">2025 / WINTER DROP </div>
-            </div>
+          <div class="nav">
+            <!-- of navbar containing heading 2025 \ Winter Drop -->
+            <div class="textheading">2025 / WINTER DROP</div>
+          </div>
         </div>
 
         <!-- hero section -->
-         <div class="hero_div">
+        <div class="hero_div">
+          <!-- use Flexbox in hero_section to arrange divs in a row fashion -->
+          <div class="hero_section">
+            <!-- Hero section content -->
 
-            <!-- use Flexbox in hero_section to arrange divs in a row fashion -->
-            <div class="hero_section">
-                <!-- Hero section content -->
+            <!-- first part of div containing text heading "NEW COLLECTION" -->
+            <div class="hero_text1">NEW COLLECTION</div>
 
-                <!-- first part of div containing text heading "NEW COLLECTION" -->
-                <div class="hero_text1">NEW COLLECTION</div>
-
-                <!--Middle part of the hero div containing 2 section inside div arranged in columns -->
-                <div class="middle_section_of_hero">
-
-                    <div class="middle_C1">
-                      <div class="C1_content">
-                            <p>[  NEW COLLECTION  ]<br></p>
-                            <p>[  LIMITED DROP  ]<br></p>
-                            <p>[  WINTER 25  ]<br></p>
-                       </div>
-                    </div>
-
-
-                    <!-- line separator div -->
-                    <div class="Line_items"></div>
-                        
-                
-                    <!-- second part of middle_part of hero -->
-                    <div class="middle_C2">
-                        <!--no need to use flex here -->
-                       <div class="C2_content">
-                           <p>PUFFER JACKETS<br></p>
-                            <p>TECH WEAR<br></p>
-                            <p>GLOSSY SILVER<br></p>
-                            <p>STEALTH BLACK <br></p>
-                        </div>
-                    </div>
+            <!--Middle part of the hero div containing 2 section inside div arranged in columns -->
+            <div class="middle_section_of_hero">
+              <div class="middle_C1">
+                <div class="C1_content">
+                  <p>[ NEW COLLECTION ]<br /></p>
+                  <p>[ LIMITED DROP ]<br /></p>
+                  <p>[ WINTER 25 ]<br /></p>
                 </div>
+              </div>
 
-                   <!-- Rightmost section of hero div containing a button -->
-                     <div class="rightmost_section_of_hero">
-                       <div class="button_div">
-                        <!-- use Flexbox -->
-                        <div class="filter_button">FILTER</div>
-                        <div class="filter_logo">
-                            <img src="" alt="filter logo">
-                        </div>
-                    
-                        </div>
-                    </div>
+              <!-- line separator div -->
+              <div class="Line_items"></div>
+
+              <!-- second part of middle_part of hero -->
+              <div class="middle_C2">
+                <!--no need to use flex here -->
+                <div class="C2_content">
+                  <p>PUFFER JACKETS<br /></p>
+                  <p>TECH WEAR<br /></p>
+                  <p>GLOSSY SILVER<br /></p>
+                  <p>STEALTH BLACK <br /></p>
                 </div>
+              </div>
             </div>
 
-            <!-- card_section -->
-            <!-- use Flexbox to display cards in a row and use property flex-wrap to wrap cards in second row along with gap property. -->
-            <div class="main_content_div">
-
-                <!-- the first image card -->
-                <div class="First_div_of_mainContent">
-                    <img src="" alt="first card image"> 
+            <!-- Rightmost section of hero div containing a button -->
+            <div class="rightmost_section_of_hero">
+              <div class="button_div">
+                <!-- use Flexbox -->
+                <div class="filter_button">FILTER</div>
+                <div class="filter_logo">
+                  <img src="" alt="filter logo" />
                 </div>
-                
-                <!-- flexbox div of carousel like cards showing products -->
-                <div class="carouselcards"></div>
-                <div class="carouselcards"></div>
-                <div class="carouselcards"></div>
-                <div class="carouselcards"></div>
-                <div class="carouselcards"></div>
-                <div class="carouselcards"></div>
-                <div class="carouselcards"></div>
-                <div class="carouselcards"></div>
+              </div>
             </div>
-
-            <!-- Before footer section div -->
-                <div class="section2">
-             <!-- use Flexbox on container to display items in a row -->
-            <!-- second last container -->
-             <div class="container">
-                <div class="text_items"></div>
-                <div class="Line_items"></div>
-                <div class="text_items"></div>
-                <div class="Line_items"></div>
-                <div class="text_items"></div>
-                <div class="Line_items"></div>
-                <div class="text_items"></div>
-             </div>
-
-                </div>
-    
-            <!-- Footer -->
-                <footer class="footer_div">
-            <!-- use Flexbox on footer to display items in a row -->
-            <div class="footer">
-
-                <!-- first section of footer -->
-                <div class="footer_pt1">
-
-
-
-
-
-                </div>
-
-                <!-- middle section of footer -->
-                 <div class="footer_middleSection">
-
-
-
-
-                 </div>
-
-                <!-- Last section of footer -->
-                <div class="footer_lastSection">
-
-
-
-                </div>
-
-
-            </div>
-                </footer>  
-
-            </div>
+          </div>
         </div>
 
-    </body>
+        <!-- card_section -->
+        <!-- use Flexbox to display cards in a row and use property flex-wrap to wrap cards in second row along with gap property. -->
+        <div class="main_content_div">
+          <!-- the first image card -->
+          <div class="First_div_of_mainContent">
+            <img src="./src/First_image.png" alt="first card image" />
+          </div>
+
+          <!-- flexbox div of carousel like cards showing products -->
+          <div class="carouselcards_r1">
+            <div class="carousel_content">
+                <div class="carousel_image">
+                    <img src="" alt="">
+                </div>
+
+                <!-- carousel content -->
+                 <div class="carousel_content_div">
+                      <div class="carousel_content_main">
+                        <div class="Name_of_product"></div>
+                        <div class="color option">
+
+                            <!-- color option 1 -->
+                            <div class="color_circle_div">
+                                <div class="color_option"></div>
+                            </div>
+                            <div class="color_name"></div>
+
+
+                            <!-- color option 2 -->
+
+                            <div class="color_circle_div">
+                                <div class="color_option"></div>
+                            </div>
+                            <div class="color_name"></div>
+
+
+                        </div>
+                        <div class="Price"></div>
+                        
+                      </div>
+                 </div>
+            </div>
+          </div>
+          <div class="carouselcards_r1">
+            <div class="carousel_content">
+                <div class="carousel_image">
+                    <img src="" alt="">
+                </div>
+
+                <!-- carousel content -->
+                 <div class="carousel_content_div">
+                      <div class="carousel_content_main">
+                        <div class="Name_of_product"></div>
+                        <div class="color option">
+
+                            <!-- color option 1 -->
+                            <div class="color_circle_div">
+                                <div class="color_option"></div>
+                            </div>
+                            <div class="color_name"></div>
+
+
+                            <!-- color option 2 -->
+
+                            <div class="color_circle_div">
+                                <div class="color_option"></div>
+                            </div>
+                            <div class="color_name"></div>
+
+                            
+                        </div>
+                        <div class="Price"></div>
+                        
+                      </div>
+                 </div>
+            </div>
+          </div>
+          <div class="carouselcards_r1">
+            <div class="carousel_content">
+                <div class="carousel_image">
+                    <img src="" alt="">
+                </div>
+
+                <!-- carousel content -->
+                 <div class="carousel_content_div">
+                      <div class="carousel_content_main">
+                        <div class="Name_of_product"></div>
+                        <div class="color option">
+
+                            <!-- color option 1 -->
+                            <div class="color_circle_div">
+                                <div class="color_option"></div>
+                            </div>
+                            <div class="color_name"></div>
+
+
+                            <!-- color option 2 -->
+
+                            <div class="color_circle_div">
+                                <div class="color_option"></div>
+                            </div>
+                            <div class="color_name"></div>
+
+                            
+                        </div>
+                        <div class="Price"></div>
+                        
+                      </div>
+                 </div>
+            </div>
+          </div>
+          <div class="carouselcards_r1">
+            <div class="carousel_content">
+                <div class="carousel_image">
+                    <img src="" alt="">
+                </div>
+
+                <!-- carousel content -->
+                 <div class="carousel_content_div">
+                      <div class="carousel_content_main">
+                        <div class="Name_of_product"></div>
+                        <div class="color option">
+
+                            <!-- color option 1 -->
+                            <div class="color_circle_div">
+                                <div class="color_option"></div>
+                            </div>
+                            <div class="color_name"></div>
+
+
+                            <!-- color option 2 -->
+
+                            <div class="color_circle_div">
+                                <div class="color_option"></div>
+                            </div>
+                            <div class="color_name"></div>
+
+                            
+                        </div>
+                        <div class="Price"></div>
+                        
+                      </div>
+                 </div>
+            </div>
+          </div>
+          <div class="carouselcards_r2">
+            <div class="carousel_content">
+                <div class="carousel_image">
+                    <img src="" alt="">
+                </div>
+
+                <!-- carousel content -->
+                 <div class="carousel_content_div">
+                      <div class="carousel_content_main">
+                        <div class="Name_of_product"></div>
+                        <div class="color option">
+
+                            <!-- color option 1 -->
+                            <div class="color_circle_div">
+                                <div class="color_option"></div>
+                            </div>
+                            <div class="color_name"></div>
+
+
+                            <!-- color option 2 -->
+
+                            <div class="color_circle_div">
+                                <div class="color_option"></div>
+                            </div>
+                            <div class="color_name"></div>
+
+                            
+                        </div>
+                        <div class="Price"></div>
+                        
+                      </div>
+                 </div>
+            </div>
+          </div>
+          <div class="carouselcards_r2">
+            <div class="carousel_content">
+                <div class="carousel_image">
+                    <img src="" alt="">
+                </div>
+
+                <!-- carousel content -->
+                 <div class="carousel_content_div">
+                      <div class="carousel_content_main">
+                        <div class="Name_of_product"></div>
+                        <div class="color option">
+
+                            <!-- color option 1 -->
+                            <div class="color_circle_div">
+                                <div class="color_option"></div>
+                            </div>
+                            <div class="color_name"></div>
+
+
+                            <!-- color option 2 -->
+
+                            <div class="color_circle_div">
+                                <div class="color_option"></div>
+                            </div>
+                            <div class="color_name"></div>
+
+                            
+                        </div>
+                        <div class="Price"></div>
+                        
+                      </div>
+                 </div>
+            </div>
+          </div>
+          <div class="carouselcards_r2">
+            <div class="carousel_content">
+                <div class="carousel_image">
+                    <img src="" alt="">
+                </div>
+
+                <!-- carousel content -->
+                 <div class="carousel_content_div">
+                      <div class="carousel_content_main">
+                        <div class="Name_of_product"></div>
+                        <div class="color option">
+
+                            <!-- color option 1 -->
+                            <div class="color_circle_div">
+                                <div class="color_option"></div>
+                            </div>
+                            <div class="color_name"></div>
+
+
+                            <!-- color option 2 -->
+
+                            <div class="color_circle_div">
+                                <div class="color_option"></div>
+                            </div>
+                            <div class="color_name"></div>
+
+                            
+                        </div>
+                        <div class="Price"></div>
+                        
+                      </div>
+                 </div>
+            </div>
+          </div>
+          <div class="carouselcards_r2">
+            <div class="carousel_content">
+                <div class="carousel_image">
+                    <img src="" alt="">
+                </div>
+
+                <!-- carousel content -->
+                 <div class="carousel_content_div">
+                      <div class="carousel_content_main">
+                        <div class="Name_of_product"></div>
+                        <div class="color option">
+
+                            <!-- color option 1 -->
+                            <div class="color_circle_div">
+                                <div class="color_option"></div>
+                            </div>
+                            <div class="color_name"></div>
+
+
+                            <!-- color option 2 -->
+
+                            <div class="color_circle_div">
+                                <div class="color_option"></div>
+                            </div>
+                            <div class="color_name"></div>
+
+                            
+                        </div>
+                        <div class="Price"></div>
+                        
+                      </div>
+                 </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Before footer section div -->
+        <div class="section2">
+          <!-- use Flexbox on container to display items in a row -->
+          <!-- second last container -->
+          <div class="container">
+            <div class="text_items"></div>
+            <div class="Line_items"></div>
+            <div class="text_items"></div>
+            <div class="Line_items"></div>
+            <div class="text_items"></div>
+            <div class="Line_items"></div>
+            <div class="text_items"></div>
+          </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer_div">
+          <!-- use Flexbox on footer to display items in a row -->
+          <div class="footer">
+            <!-- first section of footer -->
+            <div class="footer_pt1"></div>
+
+            <!-- middle section of footer -->
+            <div class="footer_middleSection"></div>
+
+            <!-- Last section of footer -->
+            <div class="footer_lastSection"></div>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
 </html>
