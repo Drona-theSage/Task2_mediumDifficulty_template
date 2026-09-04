@@ -206,9 +206,8 @@
 /* CARD Section CSS BEGINS */
 .main_content_div{
     width: 100%;
-    height: 950px;
+    height: 1060px;
     margin-top:1px;
-    background: white;
     padding-top: 5px;
     padding-bottom:2px;
     display: flex;
@@ -220,7 +219,7 @@
 
 .First_div_of_mainContent{
     width:42%;
-    height: 450px;
+    height: 520px;
     background-color: #23272c;
     border-radius:20%;
     padding:1px;
@@ -234,16 +233,102 @@
 
 .carouselcards_r1{
     width:260px;
-    height: 452px;
+    height: 520px;
     border-radius:20px;
-    background-color: #23272c;
+    background: linear-gradient( rgb(230, 227, 227) , rgb(12, 32, 49))
+
+}
+
+.carousel_content{
+    width:100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.carousel_content p{
+    font-size: 13px;
+    color:#90b0d3
+}
+
+.carousel_image{
+width: 100%;
+height: 74%;
+
+}
+
+.carousel_image img{
+    width:100%;
+    height: 100%;
+    border-radius:15px 15px 0px 0px;
 }
  
+.carousel_content_div{
+    width: 100%;
+    height: 26%;
+    padding:10px 25px 10px 25px;
+}
+
+.carousel_content_main{
+    width: 100%;
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-items: center ;
+    gap:10px;
+    line-height: 20px;
+}
+
+.Name_of_product{
+
+    width: 100%;
+    height:25%;
+}
+
+.color_option_div{
+    font-size:14px;
+    width: 80%;
+    height: 50%;
+    display: flex;
+    justify-items:center;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.color_circle_div{
+    width:15px;
+    height: 15px;
+    margin-left:2px;
+    margin-right: 2px;
+}
+.color_option{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.color_name{
+    width: 50px;
+   display: flex;
+   justify-items: center;
+   align-items: center;
+   padding: 1px 5px 1px 3px;
+
+}
+
+.Price{
+  font-size: 14px;
+  color:#a3c7ee;
+}
 .carouselcards_r2{
     width:272px;
-    height: 452px;
+    height: 520px;
     border-radius:20px;
     background-color: #23272c;
     margin-left:1px;
 }
+
+
  
