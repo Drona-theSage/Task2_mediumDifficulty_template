@@ -128,8 +128,8 @@
 .Line_items{
     margin: 7px 10px 0px 45px; 
     width: 0.6px;
-    height: 70%;
-    border: 0.5px solid #90b0d3;
+    height: 75%;
+    border: 0.5px solid #404e5d;
 }
 
 
@@ -187,17 +187,17 @@
 }
 
 .filter_logo{
-    width:35%;
+    width:30%;
     height:100%;
     display:flex;
     justify-content:center;
     align-items:center;
-    padding: 2px 1px 2px 1px;
+    padding: 5px 3px 5px 3px;
 }
 
 .filter_logo img{
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: 80%;
     object-fit: cover;
 }
 
@@ -235,7 +235,7 @@
     width:260px;
     height: 520px;
     border-radius:20px;
-    background: linear-gradient( rgb(230, 227, 227) , rgb(12, 32, 49))
+    background: linear-gradient( #c1d3f6  , #0d2642)
 
 }
 
@@ -274,7 +274,8 @@ height: 74%;
     height: 100%;
     display:flex;
     flex-direction: column;
-    justify-items: center ;
+    justify-items:start;
+    align-items:start;
     gap:10px;
     line-height: 20px;
 }
@@ -326,9 +327,88 @@ height: 74%;
     width:272px;
     height: 520px;
     border-radius:20px;
-    background-color: #23272c;
+    background: linear-gradient( #c1d3f6 , #0d2642);
     margin-left:1px;
 }
 
 
  
+
+
+/* Before Footer Section */
+
+.section2{
+    margin-top:10px;
+    width:100%;
+    height: 100px;
+    border-radius: 20px;
+    background-color:#0b1c2f;
+    border: 1px solid rgb(100, 99, 99) ;
+    padding: 5px 10px 5px 10px;
+
+}
+
+.container{
+    width:100%;
+    height: 100%;
+    display: flex;
+    justify-items:center;
+    align-items:center;
+    justify-content: space-around;
+    padding: 2px 10px 2px 10px;
+}
+
+.text_items{
+    width:250px;
+    height: 100%;
+    padding:4px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.Symbol{
+    width:35%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    padding:10px 3px 2px 3px;
+}
+
+.Symvol_description{
+    width:65%;
+    height: 100%;
+    padding: 10px 6px 10px 6px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: start;
+    gap: 4px;
+    
+}
+
+.Symvol_description b{
+    font-size: 12px;
+}
+
+.Symvol_description p{
+    font-size: 13px;
+    color:#536e8a;
+}
+/* footer */
+footer{
+margin-top:15px;
+ width:100%;
+ height: 80px;
+}
+
+.footer{
+    margin-left:35px;
+    margin-right: 35px;
+    width:95%;
+    height: 95%;
+    padding: 10px 20px 15px 20px;
+    border-radius: 20px;
+    background-color:#0b1c2f;
+    border: 1px solid rgb(100, 99, 99) ;
+}
